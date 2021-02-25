@@ -97,6 +97,34 @@ export default [
     },
     {
         id: 25,
-        word: 'Partnership'
+        word: 'Circle Back'
+    },
+    {
+        id: 26,
+        word: 'High level'
+    },
+    {
+        id: 27,
+        word: 'Cadence'
+    },
+    {
+        id: 28,
+        word: 'Flag'
+    },
+    {
+        id: 29,
+        word: 'Churn'
+    },
+    {
+        id: 30,
+        word: 'Alignment'
+    },
+    {
+        id: 31,
+        word: 'Heavy Lift'
+    },
+    {
+        id: 32,
+        word: 'Low lift'
     },
 ]
