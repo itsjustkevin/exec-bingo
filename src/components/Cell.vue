@@ -1,7 +1,13 @@
 <template>
-  <button @click="mark(index)" :class="[selected ? 'bg-gray-400' : '']">
-    {{ word }}
-  </button>
+  <div class="bg-white">
+    <button
+      @click="mark(index)"
+      class="w-full"
+      :class="[selected ? 'bg-gray-500 text-white' : '']"
+    >
+      {{ word }}
+    </button>
+  </div>
 </template>
 
 <script>
@@ -17,9 +23,9 @@ export default {
   },
 
   methods: {
-    mark(cell) {
+    mark() {
       this.selected = !this.selected;
     },
-  }
+  },
 };
 </script>
