@@ -2,7 +2,7 @@
   <div class="bg-white">
     <button
       @click="mark(index)"
-      class="w-full"
+      class="w-full h-full"
       :class="[selected ? 'bg-gray-500 text-white' : '']"
     >
       {{ word }}
@@ -14,7 +14,7 @@
 export default {
   name: "cell",
 
-  props: ["selected", "word"],
+  props: ["word"],
 
   data() {
     return {

@@ -1,4 +1,4 @@
-[
+export default [
     {
         id: 1,
         word: 'Synergy'
@@ -84,7 +84,7 @@
         word: 'Benchmark'
     },
     {
-        id: 2,
+        id: 22,
         word: 'Because you said'
     },
     {
