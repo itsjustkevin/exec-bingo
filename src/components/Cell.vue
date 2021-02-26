@@ -1,12 +1,10 @@
 <template>
-  <div class="bg-white">
-    <button
-      @click="mark(index)"
-      class="w-full h-full"
-      :class="[selected ? 'bg-gray-500 text-white' : '']"
-    >
-      {{ word }}
-    </button>
+  <div
+    class="bg-white sm:h-square sm:w-square flex justify-center items-center"
+    @click="mark(index)"
+    :class="[selected ? 'bg-gray-500 text-white' : '']"
+  >
+    {{ word }}
   </div>
 </template>
 
