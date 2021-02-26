@@ -127,4 +127,24 @@ export default [
         id: 32,
         word: 'Low lift'
     },
+    {
+        id: 33,
+        word: 'North Star"
+    },
+    {
+        id: 34,
+        word: 'Leverage"
+    },
+    {
+        id: 35,
+        word: 'Thoughtful"
+    },
+    {
+        id: 36,
+        word: 'Vision"
+    },
+    {
+        id: 37,
+        word: 'Quick Win"
+    }
 ]
