@@ -85,11 +85,11 @@ export default [
     },
     {
         id: 22,
-        word: 'Because you said'
+        word: 'Rigor'
     },
     {
         id: 23,
-        word: 'I would recommend'
+        word: 'Deep dive'
     },
     {
         id: 24,
