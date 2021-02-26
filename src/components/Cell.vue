@@ -2,7 +2,7 @@
   <div
     class="bg-white sm:h-square sm:w-square flex justify-center items-center"
     @click="mark(index)"
-    :class="[selected ? 'bg-gray-500 text-white' : '']"
+    :class="[selected ? 'bg-google-blue text-white' : '']"
   >
     {{ word }}
   </div>
