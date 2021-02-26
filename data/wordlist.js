@@ -129,22 +129,22 @@ export default [
     },
     {
         id: 33,
-        word: 'North Star"
+        word: 'North Star'
     },
     {
         id: 34,
-        word: 'Leverage"
+        word: 'Leverage'
     },
     {
         id: 35,
-        word: 'Thoughtful"
+        word: 'Thoughtful'
     },
     {
         id: 36,
-        word: 'Vision"
+        word: 'Vision'
     },
     {
         id: 37,
-        word: 'Quick Win"
+        word: 'Quick Win'
     }
 ]
