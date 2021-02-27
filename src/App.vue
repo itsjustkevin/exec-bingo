@@ -1,9 +1,9 @@
 <template>
   <div class="flex flex-col items-center content-center">
-    <div class="text-center text-2xl font-mono font-bold py-4 text-google-blue">
+    <div class="text-center text-2xl font-mono font-bold py-4 dark:text-gray-200 text-google-blue">
       Executive Lingo Bingo
     </div>
-    <div class="bg-gray-200 m-4 p-4 sm:h-board sm:w-board">
+    <div class="dark:bg-gray-900 bg-gray-200 m-4 p-4 sm:h-board sm:w-board">
       <div class="grid grid-cols-5 gap-4 text-center">
         <div v-for="word in wordList" :key="word.id">
           <cell :word="word.word"></cell>

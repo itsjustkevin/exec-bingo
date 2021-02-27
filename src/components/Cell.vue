@@ -1,8 +1,8 @@
 <template>
   <div
-    class="bg-white sm:h-square sm:w-square flex justify-center items-center"
+    class="dark:bg-gray-300 bg-white sm:h-square sm:w-square flex justify-center items-center"
     @click="mark()"
-    :class="[selected ? 'bg-google-blue text-white' : 'text-gray-500']"
+    :class="[selected ? 'dark:bg-google-green bg-google-blue dark:text-gray-200 text-white' : 'dark:text-gray-700 text-gray-500']"
   >
     {{ word }}
   </div>
